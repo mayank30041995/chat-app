@@ -6,8 +6,8 @@ const Sidebar = () => {
     <div className="h-100 pt-2">
       <div>
         <DashboardToggle />
-        bottom
       </div>
+      bottom
     </div>
   );
 };

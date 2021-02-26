@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Drawer, Icon } from 'rsuite';
 import { useModelState, useMediaQuery } from '../../misc/custom-hooks';
 import Dashboard from '.';
-
 const DashboardToggle = () => {
   const { isOpen, close, open } = useModelState();
   const isMobile = useMediaQuery('(max-width: 992px)');
